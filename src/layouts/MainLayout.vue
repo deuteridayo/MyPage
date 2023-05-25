@@ -11,7 +11,7 @@
           @click="toggleLeftDrawer"
         />
 
-        <q-toolbar-title> じゅーすいそのホームページ </q-toolbar-title>
+        <q-toolbar-title> deuteridayo's WebPage dayo </q-toolbar-title>
 
         <div>Quasar v{{ $q.version }}</div>
       </q-toolbar>
@@ -49,14 +49,14 @@ const linksList = [
   {
     title: 'Twitter',
     caption: '@deuteridayodayo',
-    icon: 'chat_bubble_outline',
+    icon: 'img:icons/twitter.svg',
     link: 'https://twitter.com/deuteridayodayo',
   },
 
   {
     title: 'Github',
     caption: 'github.com/deuteridayo',
-    icon: 'code',
+    icon: 'img:icons/github-mark.svg',
     link: 'https://github.com/deuteridayo',
   },
 ];

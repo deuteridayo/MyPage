@@ -1,31 +1,39 @@
 <template>
-  <div class="fullscreen bg-blue text-white text-center q-pa-md flex flex-center">
+  <q-page class="text-center q-pa-md flex flex-center">
     <div>
-      <div style="font-size: 30vh">
-        404
-      </div>
+      <div style="color: #9090ff; font-size: 30vh">404</div>
 
-      <div class="text-h2" style="opacity:.4">
-        Oops. Nothing here...
-      </div>
+      <div class="text-h1" style="opacity: 0.6">ごめんね</div>
 
       <q-btn
-        class="q-mt-xl"
+        class="q-mt-xs"
+        flat
         color="white"
         text-color="blue"
         unelevated
+        style="font-size: 5vh"
         to="/"
-        label="Go Home"
+        label="あきらめる"
         no-caps
       />
     </div>
-  </div>
+  </q-page>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue';
 
 export default defineComponent({
-  name: 'ErrorNotFound'
+  name: 'ErrorNotFound',
+
+  setup() {
+    const color = () => {
+      return 'indigo-3';
+    };
+
+    return {
+      color,
+    };
+  },
 });
 </script>

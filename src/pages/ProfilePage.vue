@@ -11,12 +11,17 @@
       <div class="row text-h5 q-ml-lg">1997年12月10日</div>
       <br />
       <div class="row text-h6 q-ml-lg"><u>すきなもの</u></div>
-      <div class="row text-h5 q-ml-lg">競技プログラミング</div>
-      <div class="row text-h5 q-ml-lg">サンリオ</div>
+      <div class="row text-h5 q-ml-lg">
+        競技プログラミング(AtCoder A:青/H:水)
+      </div>
+      <div class="row text-h5 q-ml-lg">サンリオ (シナモロール)</div>
       <div class="row text-h5 q-ml-lg">ネイル</div>
       <div class="row text-h5 q-ml-lg">かわいい服</div>
-      <div class="row text-h5 q-ml-lg">ラブライブ！(μ's)</div>
+      <div class="row text-h5 q-ml-lg">μ's (ラブライブ！)</div>
       <div class="row text-h5 q-ml-lg">内田彩さん</div>
+
+      <br />
+      <div class="row text-h6 q-ml-lg"><u>持ってる資格など</u></div>
     </div>
   </q-page>
 </template>

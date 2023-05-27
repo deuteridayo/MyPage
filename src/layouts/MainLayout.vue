@@ -95,10 +95,16 @@ const linksList = [
   },
 
   {
-    title: 'Wish List',
+    title: 'ほしいもの',
     caption: 'ほしいもの',
     icon: 'shopping_cart',
     link: 'https://www.amazon.co.jp/hz/wishlist/ls/2F5Z4J449A4KJ?ref_=wl_share',
+  },
+
+  {
+    title: 'マシュマロ',
+    icon: 'live_help',
+    link: 'https://marshmallow-qa.com/deuteridayodayo',
   },
 ];
 
